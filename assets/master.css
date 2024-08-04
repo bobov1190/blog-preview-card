@@ -61,7 +61,6 @@ body {
 	font-size: 16px;
 	line-height: 150%;
 	font-weight: 500;
-	width: 336px;
 }
 
 .auth {
@@ -103,6 +102,5 @@ body {
 
 	.description {
 		font-size: 14px;
-		max-width: 279px !important;
 	}
 }
