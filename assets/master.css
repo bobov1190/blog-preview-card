@@ -61,7 +61,7 @@ body {
 	font-size: 16px;
 	line-height: 150%;
 	font-weight: 500;
-	width: 336px;
+	max-width: 336px;
 }
 
 .auth {
@@ -79,7 +79,7 @@ body {
 	margin-right: 12px;
 }
 
-@media screen and (max-width: 425px) {
+@media (max-width: 425px) {
 	.post {
 		margin: 24px;
 	}
