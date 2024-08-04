@@ -103,6 +103,6 @@ body {
 
 	.description {
 		font-size: 14px;
-		max-width: 279px;
+		max-width: 279px !important;
 	}
 }
