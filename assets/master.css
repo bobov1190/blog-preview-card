@@ -78,12 +78,29 @@ body {
 	margin-right: 12px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
 	.post {
-		margin: 0 24px;
+		margin: 24px;
+	}
+
+	.image {
+		width: 279px;
+		height: auto;
 	}
 
 	.tag {
 		font-size: 12px;
+	}
+
+	.date {
+		font-size: 12px;
+	}
+
+	.title {
+		font-size: 20px;
+	}
+
+	.description {
+		font-size: 14px;
 	}
 }
