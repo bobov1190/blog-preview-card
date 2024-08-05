@@ -30,6 +30,7 @@ body {
 .image {
 	margin-bottom: 24px;
 	border-radius: 10px;
+	object-fit: cover;
 }
 
 .tag {
@@ -47,6 +48,15 @@ body {
 	font-size: 14px;
 	line-height: 150%;
 	font-weight: 500;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	flex-wrap: wrap;
+	white-space: inherit;
+	max-width: 336px;
 }
 
 .title {
@@ -78,15 +88,15 @@ body {
 	margin-right: 12px;
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
 	.post {
 		margin: 24px;
 	}
 
-/* 	.image {
+	.image {
 		width: 279px;
 		height: auto;
-	} */
+	}
 
 	.tag {
 		font-size: 12px;
